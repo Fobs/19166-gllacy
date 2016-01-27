@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Каталог</title>
+</head>
+<body>
+	<header>
+		<div class="logo"></div>
+		<nav class="main-navigation">
+			<ul>
+				<li>Каталог</li>
+				<li><a href="#">Доставка и оплата</a></li>
+				<li><a href="#">О Компании</a></li>
+			</ul>
+		</nav>
+		<div class="login">
+
+		<!-- поиск -->
+
+			<a href="#" class="search"><i></i></a>
+
+			<div class="search-hover">
+				<form action="https://echo.htmlacademy.ru" method="post">
+					<input type="search" placeholder="Что ищём?">
+				</form>
+			</div>
+
+		<!-- Вход -->
+
+			<a href="#" class="enter">Вход</a>
+
+			<div class="enter-hover">
+				<form action="https://echo.htmlacademy.ru" method="post">
+					<input type="email" placeholder="Электронная почта">
+					<input type="password" placeholder="Пароль">
+					<button class="btn">Войти</button>
+					<ul class="registr">
+						<li><a href="#">Забыли пароль?</a></li>
+						<li><a href="#">Новая регистрация</a></li>
+					</ul>
+				</form>
+			</div>
+
+		<!-- Корзина -->
+
+		<a href="#" class="basket">2 товара</a>
+
+		<div class="basket-hover">
+			<ul class="chosen-item-first">
+				<li><i></i></li>
+				<li><img src="http://placehold.it/150x100" alt=""></li>
+				<li>Пломбир с апельсиновым джемом</li>
+				<li>1,5 кг <span>x 200 руб.</span></li>
+				<li>300 руб.</li>
+			</ul>
+
+			<ul class="chosen-item-second">
+				<li><i></i></li>
+				<li><img src="http://placehold.it/150x100" alt=""></li>
+				<li>Клубничный пломбир с присыпкой из белого шоколада</li>
+				<li>1,5 кг <span>x 300 руб.</span> </li>
+				<li>450 руб.</li>
+			</ul>
+
+			<div class="total">
+				Итого: 750 руб.
+			</div>
+
+			<a href="#" class="btn">Оформить заказ</a>
+		</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="sorting">
+			<div class="site-map">
+				<ul>
+					<li><a href="#">Главная &raquo;</a></li>
+					<li><a href="#">Каталог &raquo;</a></li>
+					<li><a href="#">Сливочное</a></li>
+				</ul>
+			</div>
+
+			<div class="contact">
+				<p class="info">c 10 до 20, ежедневно<br>
+				8 812 450-25-25</p>
+			</div>
+
+			<div class="parameters">
+				<h1>Сливочное мороженое</h1>
+				<form action="https://echo.htmlacademy.ru" method="post">
+					<label><p>Сортировка:</p>
+					<select name="sort">
+						<option value="popularity">по популярности</option>
+					</select></label>
+
+					<p>Цена: 100 руб. - 500 руб.</p>
+					<input type="range" name="price" min="100" max="500" step="10">
+
+					<p>Жирность</p>
+					<label><input type="radio" value="1">0%</label>
+					<label><input type="radio" value="2" checked>до 10%</label>
+					<label><input type="radio" value="3">до 30%</label>
+					<label><input type="radio" value="4">выше 30%</label>
+
+					<p>Наполнители:</p>
+					<label><input type="checkbox" value="chocolate" checked>шоколадные</label>
+					<label><input type="checkbox" value="sugar" checked>сахарные присыпки</label>
+					<label><input type="checkbox" value="fruits">фрукты</label>
+					<label><input type="checkbox" value="sirops">сиропы</label>
+					<label><input type="checkbox" value="jam">джемы</label>
+
+					<input type="submit" value="Отправить">
+				</form>
+			</div>
+		</section>
+
+		<section class="products">
+			<article class="product-item">
+				<img src="http://placehold.it/150x100" alt="">
+				<span>310р/кг</span>
+				<a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+			</article>
+
+			<article class="product-item">
+				<img src="http://placehold.it/150x100" alt="">
+				<span>380р/кг</span>
+				<a href="#">Сливочно - клубничное с присыпкой из белого шоколада</a>
+			</article>
+
+			<article class="product-item">
+				<img src="http://placehold.it/150x100" alt="">
+				<span>355р/кг</span>
+				<a href="#">Сливочно - кофейное с кусочками шоколада</a>
+			</article>
+
+			<article class="product-item">
+				<img src="http://placehold.it/150x100" alt="">
+				<span>415р/кг</span>
+				<a href="#">Сливочное крем-брюле с карамельной подливкой</a>
+			</article>
+
+			<article class="product-item">
+				<img src="http://placehold.it/150x100" alt="">
+				<span>325р/кг</span>
+				<a href="#">Сливочное с брусничным джемом</a>
+			</article>
+
+			<article class="product-item">
+				<img src="http://placehold.it/150x100" alt="">
+				<span>410р/кг</span>
+				<a href="#">Сливочно - черничное с цельными ягодами черники</a>
+			</article>
+
+			<article class="product-item">
+				<img src="http://placehold.it/150x100" alt="">
+				<span>375р/кг</span>
+				<a href="#">Сливочно - лимонное с карамельной присыпкой</a>
+			</article>
+
+			<article class="product-item">
+				<img src="http://placehold.it/150x100" alt="">
+				<span>320р/кг</span>
+				<a href="#">Сливочное с шоколадной стружкой</a>
+			</article>
+
+			<article class="product-item">
+				<img src="http://placehold.it/150x100" alt="">
+				<span>440р/кг</span>
+				<a href="#">Сливочно - ванильное с кусочками шоколада</a>
+			</article>
+
+			<article class="product-item">
+				<img src="http://placehold.it/150x100" alt="">
+				<span>435р/кг</span>
+				<a href="#">Сливочное с ментоловым сиропом</a>
+			</article>
+
+			<article class="product-item">
+				<img src="http://placehold.it/150x100" alt="">
+				<span>355р/кг</span>
+				<a href="#">Сливочное с с кусочками чёрного шоколада</a>
+			</article>
+		</section>	
+	</main>
+
+	<footer>
+		<div class="social">
+				<a href="#" class="social-btn social-btn-twitter">Twitter</a>
+				<a href="#" class="social-btn social-btn-inst">Instagram</a>
+				<a href="#" class="social-btn social-btn-fb">Facebook</a>
+				<a href="#" class="social-btn social-btn-vk">VK</a>
+			</div>
+
+			<div class="about">
+				<ul>
+					<li><a href="#">Для поставщиков</a></li>
+					<li><a href="#">Наши документы</a></li>
+					<li><a href="#">О производстве</a></li>
+					<li><a href="#">Экологические стандарты</a></li>
+				</ul>
+			</div>
+
+			<div class="copyright">
+				<p>Сделано в <a href="#">HTML Academy</a> &copy; 2016</p>
+			</div>
+	</footer>
+</body>
+</html>
