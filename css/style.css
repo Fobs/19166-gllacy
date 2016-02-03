@@ -1,6 +1,7 @@
 body {
 	font-family: 'Roboto', Arial, sans-serif;
-	background-color: #cccccc;  
+	background-color: #cccccc;
+	width: 1200px;  
 }
 
 h1 {
@@ -14,11 +15,354 @@ h2 {
 	font-size: 35px;
 	line-height: 39px;
 	font-weight: bold;
-	color: #fff;
+	color: #ffffff;
 }
 
 h2.shop-about {
 	font-size: 24px;
 	line-height: 30px;
 	color: #323232;
+}
+
+/*================ header ======================*/
+
+header {
+	width: 1146px;
+	margin: 0 27px;
+	font-size: 0;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: top;
+	width: 164px;
+	background-color: yellow;
+}
+
+.main-navigation {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0;
+	width: 690px;
+	background-color: orange;
+}
+
+.main-navigation ul {
+	list-style: none;
+}
+.main-navigation li {
+	display: inline-block;
+	vertical-align: bottom;
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 25px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+
+}
+
+.catalog {
+	margin-left: -15px;
+}
+.catalog-hover, .search-hover, .enter-hover, .basket-hover {
+	display: none;
+}
+
+.login {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0;
+	width: 292px;
+	background-color: pink;
+}
+
+.enter, .search, .basket {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	line-height: 18px;
+	margin-top: 25px;
+	margin-right: 10px;
+	margin-bottom: 27px;
+}
+
+.basket, .enter {
+	width: 92px;
+}
+
+.search {
+	margin-left: 6px;	
+}
+
+/*================= main ===================*/
+
+main {
+	width: 1146px;
+	margin: 0 27px;
+}
+.contact {
+	float: right;
+	width: 267px;
+	text-align: right;
+	background: green;
+	margin-bottom: 270px;
+}
+
+.circle-first, .circle-second, .circle-third {
+	clear: both;
+	display: inline-block;
+	vertical-align: top;
+	width: 20px;
+	height: 20px;
+	background: white;
+	border-radius: 50%;
+}
+
+.slider-title-first, .slider-title-second, .slider-title-third {
+	width: 715px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	background: violet;
+	clear: both;
+	text-align: center;
+}
+
+.slider-title-second, .slider-title-third {
+	display: none;
+}
+
+.extra {
+	font-size: 0;
+	margin-bottom: 40px;
+}
+
+.extra-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 540px;
+	background: brown;
+	margin-right: 20px;
+	padding-left: 20px;
+}
+
+.extra-item h2 {
+	font-size: 35px;
+	line-height: 41px;
+}
+
+.extra-item p {
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.extra-item a {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+
+.extra-item:last-child {
+	margin-right: 0;
+}
+
+.item {
+	display: inline-block;
+	vertical-align: top;
+	width: 270px;
+	margin-right: 16px;
+	margin-bottom: 40px;
+	background: yellow;
+}
+
+.item:last-child {
+	margin-right: 0;
+}
+
+.features {
+	font-size: 0;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	background: green;
+	margin-bottom: 40px;
+}
+
+.shop-about {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.row {
+	display: inline-block;
+	vertical-align: top;
+	width: 540px;
+	background: yellow;
+	margin-right: 20px;
+}
+
+.row:last-child {
+	margin-right: 0;
+}
+
+.row li {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.topics {
+	font-size: 0;
+}
+
+.blog, .subscribe {
+	display: inline-block;
+	vertical-align: top;
+	background: fuchsia;
+	margin-bottom: 40px;
+}
+
+.blog {
+	width: 285px;
+	margin-right: 26px;
+	padding-bottom: 85px;
+	padding-right: 255px;
+	padding-left: 20px;
+	padding-top: 25px;
+}
+
+.blog .new {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.blog a {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.subscribe {
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 35px;
+	width: 530px;
+}
+
+.subscribe p {
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 40px;
+}
+
+.subscribe form {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/*================= map ====================*/
+
+.address {
+	width: 300px;
+	background: orange;
+}
+
+.mail-form {
+	display: none;
+}
+
+/*==================== footer ==================*/
+
+footer {
+	width: 1146px;
+	margin: 0 27px;
+	font-size: 0;
+}
+
+.social, .about, .copyright {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.social {
+	width: 293px;
+	padding-top: 50px;
+	padding-bottom: 54px;
+	font-size: 13px;
+	background: pink;
+}
+
+.social a {
+	margin-right: 12px;
+} 
+
+.about {
+	width: 562px;
+	font-size: 13px;
+	font-size: 0;
+	text-align: justify;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	background: orange;
+}
+
+.about ul {
+	display: block;
+	margin: 0 auto;
+	width: 335px;
+}
+
+.about li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 13px;
+	line-height: 24px;
+	margin-right: 40px;
+	text-align: left;
+}
+
+.about a {
+	color: #ffffff;
+}
+
+.copyright {
+	width: 267px;
+	font-size: 12px;
+	padding-top: 20px;
+	padding-bottom: 17px;
+	background: violet;
+}
+
+/*================== catalog.html =============*/
+
+.page-title {
+	float: left;
+	font-size: 0;
+	margin-top: 30px;
+	margin-right: 300px;
+	background: blue;
+	width: 700px;
+}
+
+.site-map {
+	background: green;
+	margin-bottom: -30px;
+}
+
+.site-map li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 20px;
+	margin-right: 7px;
+	color: #fff;
+}
+
+.site-map a {
+	color: #fff;
+}
+
+.clearfix {
+	content: ' ';
+	display: table;
+	clear: both;
 }
