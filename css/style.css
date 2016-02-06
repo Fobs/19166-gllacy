@@ -1,7 +1,18 @@
+*{
+    outline: 1px solid red;
+}
+
 body {
 	font-family: 'Roboto', Arial, sans-serif;
 	background-color: #cccccc;
-	width: 1200px;  
+}
+
+header, main, footer{
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
 }
 
 h1 {
@@ -27,43 +38,38 @@ h2.shop-about {
 /*================ header ======================*/
 
 header {
-	width: 1146px;
-	margin: 0 27px;
+	width: 1151px;
+	padding: 0 27px 0 22px;
 	font-size: 0;
 }
 
 .logo {
 	display: inline-block;
 	vertical-align: top;
-	width: 164px;
-	background-color: yellow;
+	width: 153px;
 }
 
 .main-navigation {
 	display: inline-block;
 	vertical-align: top;
 	font-size: 0;
-	width: 690px;
-	background-color: orange;
+	width: 630px;
 }
 
 .main-navigation ul {
 	list-style: none;
+	padding-left: 30px;
 }
 .main-navigation li {
 	display: inline-block;
 	vertical-align: bottom;
 	font-size: 16px;
-	line-height: 20px;
-	margin-top: 25px;
-	margin-right: 25px;
-	margin-bottom: 25px;
-
+	line-height: 24px;
+	padding-top: 16px;
+	padding-bottom: 23px;
+	padding-right: 30.5px;
 }
 
-.catalog {
-	margin-left: -15px;
-}
 .catalog-hover, .search-hover, .enter-hover, .basket-hover {
 	display: none;
 }
@@ -72,8 +78,10 @@ header {
 	display: inline-block;
 	vertical-align: top;
 	font-size: 0;
-	width: 292px;
-	background-color: pink;
+	padding-left: 100px;
+	padding-top: 20px;
+	padding-bottom: 26px;
+	width: 268px;
 }
 
 .enter, .search, .basket {
@@ -81,31 +89,29 @@ header {
 	vertical-align: middle;
 	font-size: 14px;
 	line-height: 18px;
-	margin-top: 25px;
+	
 	margin-right: 10px;
-	margin-bottom: 27px;
+	
 }
 
-.basket, .enter {
-	width: 92px;
-}
 
-.search {
-	margin-left: 6px;	
-}
 
 /*================= main ===================*/
 
 main {
 	width: 1146px;
-	margin: 0 27px;
+	padding: 0 27px;
 }
 .contact {
 	float: right;
 	width: 267px;
 	text-align: right;
-	background: green;
-	margin-bottom: 270px;
+	padding-bottom: 230px;
+}
+
+p.info {
+	display: block;
+	margin-top: 0;
 }
 
 .circle-first, .circle-second, .circle-third {
@@ -114,17 +120,33 @@ main {
 	vertical-align: top;
 	width: 20px;
 	height: 20px;
-	background: white;
 	border-radius: 50%;
 }
 
 .slider-title-first, .slider-title-second, .slider-title-third {
-	width: 715px;
+	width: 710px;
 	margin: 0 auto;
-	margin-bottom: 40px;
-	background: violet;
+	
 	clear: both;
 	text-align: center;
+}
+
+.slider-title-first h1, .slider-title-second h1, .slider-title-third h1 {
+	margin: 0;
+	padding-top: 27px;
+	padding-left: 0px;
+	padding-bottom: 25px;
+}
+
+.slider-title-first .btn, .slider-title-second .btn, .slider-title-third .btn {
+	display: block;
+	color: #fff;
+	font-size: 32px;
+	line-height: 63px;
+	text-decoration: none;
+	width: 280px;
+	height: 66px;
+	margin: 0 auto;
 }
 
 .slider-title-second, .slider-title-third {
@@ -133,73 +155,87 @@ main {
 
 .extra {
 	font-size: 0;
-	margin-bottom: 40px;
+	padding-top: 40px;
 }
 
 .extra-item {
 	display: inline-block;
 	vertical-align: top;
-	width: 540px;
-	background: brown;
-	margin-right: 20px;
-	padding-left: 20px;
+	width: 546px;
+	margin-right: 26px;
+	padding-left: 14px;
+	padding-top: 15px;
 }
 
 .extra-item h2 {
+	margin: 0;
 	font-size: 35px;
 	line-height: 41px;
+	padding: 0;
 }
 
 .extra-item p {
+	margin: 0;
 	font-size: 18px;
 	color: #ffffff;
+	padding-top: 22px;
+	
 }
 
-.extra-item a {
+.extra-item .extra-btn {
 	font-size: 18px;
 	line-height: 24px;
 	color: #ffffff;
 	margin-top: 45px;
-	margin-bottom: 40px;
+	
 }
 
 .extra-item:last-child {
 	margin-right: 0;
 }
 
+.assortiment {
+	padding-top: 40px;
+}
+
 .item {
 	display: inline-block;
 	vertical-align: top;
-	width: 270px;
-	margin-right: 16px;
-	margin-bottom: 40px;
-	background: yellow;
+	width: 267px;
+	margin-right: 21.5624px;
+	
 }
 
 .item:last-child {
 	margin-right: 0;
 }
 
+.item p {
+	margin: 0;
+	padding-top: 15px;
+	text-align: center;
+}
+
 .features {
 	font-size: 0;
-	padding-top: 30px;
+	margin-top: 30px;
 	padding-left: 20px;
 	padding-bottom: 30px;
-	background: green;
-	margin-bottom: 40px;
 }
 
 .shop-about {
 	font-size: 24px;
 	line-height: 30px;
+	padding-top: 26px;
+	margin-bottom: 0;
 }
 
 .row {
 	display: inline-block;
 	vertical-align: top;
 	width: 540px;
-	background: yellow;
-	margin-right: 20px;
+	margin-right: 26px;
+	padding-top: 10px;
 }
 
 .row:last-child {
@@ -209,17 +245,18 @@ main {
 .row li {
 	font-size: 16px;
 	line-height: 22px;
+	list-style: none;
 }
 
 .topics {
 	font-size: 0;
+	margin-top: 40px;
 }
 
 .blog, .subscribe {
 	display: inline-block;
 	vertical-align: top;
-	background: fuchsia;
-	margin-bottom: 40px;
+	padding-left: 20px;
 }
 
 .blog {
@@ -242,28 +279,49 @@ main {
 }
 
 .subscribe {
-	padding-top: 10px;
-	padding-left: 30px;
+	padding-top: 28px;
 	padding-bottom: 35px;
-	width: 530px;
+	width: 540px;
 }
 
 .subscribe p {
 	font-size: 16px;
 	line-height: 22px;
-	margin-bottom: 40px;
+	margin-top: 0;
+	margin-bottom: 37px;
+	margin-right: 25px;
 }
 
 .subscribe form {
 	font-size: 16px;
 	line-height: 24px;
+	margin-bottom: 34px;
 }
 
 /*================= map ====================*/
 
+.map {
+	position: relative;
+	margin-top: 40px;
+	height: 430px;
+	
+}
+
 .address {
-	width: 300px;
-	background: orange;
+	position: absolute;
+	left: 870px;
+	bottom: 60px;
+	width: 275px;
+	padding-top: 33px;
+	padding-left: 25px;
+}
+
+.address p {
+	margin: 0;
+}
+
+.address .block-bottom {
+	margin-top: 20px;
 }
 
 .mail-form {
@@ -274,7 +332,7 @@ main {
 
 footer {
 	width: 1146px;
-	margin: 0 27px;
+	padding: 33px 27px  28px  27px;
 	font-size: 0;
 }
 
@@ -285,10 +343,7 @@ footer {
 
 .social {
 	width: 293px;
-	padding-top: 50px;
-	padding-bottom: 54px;
 	font-size: 13px;
-	background: pink;
 }
 
 .social a {
@@ -300,9 +355,6 @@ footer {
 	font-size: 13px;
 	font-size: 0;
 	text-align: justify;
-	padding-top: 40px;
-	padding-bottom: 30px;
-	background: orange;
 }
 
 .about ul {
@@ -311,12 +363,19 @@ footer {
 	width: 335px;
 }
 
-.about li {
+.about .list-left {
+	text-align: left;
+}
+
+.about .list-right {
+	text-align: right;
+}
+
+.about ul li {
 	display: inline-block;
 	vertical-align: top;
 	font-size: 13px;
 	line-height: 24px;
-	margin-right: 40px;
 	text-align: left;
 }
 
@@ -325,27 +384,29 @@ footer {
 }
 
 .copyright {
-	width: 267px;
+	width: 291px;
 	font-size: 12px;
-	padding-top: 20px;
-	padding-bottom: 17px;
-	background: violet;
 }
 
 /*================== catalog.html =============*/
 
-.page-title {
-	float: left;
+.page-head {
 	font-size: 0;
-	margin-top: 30px;
-	margin-right: 300px;
-	background: blue;
-	width: 700px;
+	margin: 0;
 }
 
-.site-map {
-	background: green;
-	margin-bottom: -30px;
+.page-title {
+	display: inline-block;
+	vertical-align: top;
+	width: 586.5px;
+	margin-right: 288.07px;
+}
+
+.page-title h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 35px;
+	line-height: 36px;
 }
 
 .site-map li {
@@ -359,10 +420,121 @@ footer {
 
 .site-map a {
 	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
 }
 
-.clearfix {
-	content: ' ';
-	display: table;
-	clear: both;
+.contact-tel {
+	display: inline-block;
+	vertical-align: top;
+	width: 267px;
+	text-align: right;
+	padding-bottom: 67px;
 }
+
+.contact-tel .info {
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+}
+
+.info strong {
+	font-size: 22px;
+	line-height: 26px;
+}
+
+/*============= фишечки всякие =============*/
+
+.parameters {
+	font-size: 0;
+}
+
+.parameters form {
+	width: 880px;
+}
+
+form span {
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.sorting, .price-value, .fat, .filler {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.sorting p {
+	margin-top: 0;
+}
+
+.fat ul {
+	list-style: none;
+}
+
+.fat ul li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	line-height: 20px;
+	color: #fff;
+}
+
+.filler ul {
+	list-style: none;
+}
+
+.filler ul li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	line-height: 20px;
+	color: #fff;
+}
+
+/*============== мороженки =====================*/
+
+.products {
+	font-size: 0;
+}
+
+.product-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 267px;
+	margin-right: 26px;
+}
+
+.product-item:nth-child(4n+0) {
+	margin-right: 0;
+}
+
+.product-item a {
+	font-size: 16px;
+	line-height: 22px;
+	color: #fff;
+}
+
+.product-item span {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 26px;
+}
+
+.pages ul {
+	list-style: none;
+	font-size: 0;
+	text-align: right;
+}
+
+.pages li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.pages li a {
+	font-size: 16px;
+	line-height: 20px;
+	color: #fff;
+}
+
